@@ -24,8 +24,7 @@
     {"source": "5AF C/J ColdFusion", "target": "5AF SIPR ColdFusion", "value": 1},
     {"source": "5AF NIPR Sharepoint", "target": "5AF SIPR Sharepoint", "value": 1},
     {"source": "5AF NIPR Sharepoint", "target": "5AF C/J Sharepoint", "value": 1},
-    {"source": "5AF C/J Sharepoint", "target": "5AF SIPR ColdFusion", "value": 1},
-	{"source": "5AF C/J Sharepoint", "target": "5AF SIPR ColdFusion", "value": 1},
-	{"source": "5AF C/J SADS", "target": "5AF SIPR SADS", "value": 1}
+    {"source": "5AF C/J Sharepoint", "target": "5AF SIPR Sharepoint", "value": 1},
+    {"source": "5AF C/J SADS", "target": "5AF SIPR SADS", "value": 1}
   ]
 }
