@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {"id": "5AF", "group": 1},
+	{"id": "5AF NIPR ColdFusion", "group": 2},
+    {"id": "5AF NIPR Sharepoint", "group": 2},
+	{"id": "5AF SIPR ColdFusion", "group": 3},
+	{"id": "5AF SIPR Sharepoint", "group": 3},
+	{"id": "5AF SIPR SADS", "group": 3},
+	{"id": "5AF C/J ColdFusion", "group": 4},
+	{"id": "5AF C/J SADS", "group": 4},
+	{"id": "5AF C/J Sharepoint", "group": 4}
+  ],
+  "links": [
+    {"source": "5AF", "target": "5AF NIPR ColdFusion", "value": 1},
+    {"source": "5AF", "target": "5AF NIPR Sharepoint", "value": 1},
+    {"source": "5AF", "target": "5AF SIPR ColdFusion", "value": 1},
+    {"source": "5AF", "target": "5AF SIPR Sharepoint", "value": 1},
+    {"source": "5AF", "target": "5AF SIPR SADS", "value": 1},
+    {"source": "5AF", "target": "5AF C/J ColdFusion", "value": 1},
+    {"source": "5AF", "target": "5AF C/J SADS", "value": 1},
+    {"source": "5AF", "target": "5AF C/J Sharepoint", "value": 1},
+    {"source": "5AF NIPR ColdFusion", "target": "5AF SIPR ColdFusion", "value": 1},
+    {"source": "5AF NIPR ColdFusion", "target": "5AF C/J ColdFusion", "value": 1},
+    {"source": "5AF C/J ColdFusion", "target": "5AF SIPR ColdFusion", "value": 1},
+    {"source": "5AF NIPR Sharepoint", "target": "5AF SIPR Sharepoint", "value": 1},
+    {"source": "5AF NIPR Sharepoint", "target": "5AF C/J Sharepoint", "value": 1},
+    {"source": "5AF C/J Sharepoint", "target": "5AF SIPR ColdFusion", "value": 1},
+	{"source": "5AF C/J Sharepoint", "target": "5AF SIPR ColdFusion", "value": 1},
+	{"source": "5AF C/J SADS", "target": "5AF SIPR SADS", "value": 1}
+  ]
+}
