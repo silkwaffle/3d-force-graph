@@ -15,11 +15,11 @@
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/testdata.json')
-        .nodeColor(if 'group' = 2 {
+        .nodeColor(if ('group' = 2) {
                   'green';
-                   } else if 'group' = 3 {
+                   } else if ('group' = 3) {
                   'red';
-                   } else if 'group' = 4 {
+                   } else if ('group' = 4) {
                   'blue';
                    } else {
                   'gold';
