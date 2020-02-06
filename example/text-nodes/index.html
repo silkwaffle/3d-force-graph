@@ -15,7 +15,7 @@
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .jsonUrl('../datasets/testdata.json')
-        .nodeColor(node => 'rgb(255,0,0,1)')
+        .nodeColor(node => 'rgba(0,255,255,0.6)')
         .onNodeDragEnd(node => {
           node.fx = node.x;
           node.fy = node.y;
